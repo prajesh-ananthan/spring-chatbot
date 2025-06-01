@@ -17,7 +17,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class Products extends BaseDomain {
+public class Product extends BaseDomain {
 
     @Column(nullable = false)
     private String name;
