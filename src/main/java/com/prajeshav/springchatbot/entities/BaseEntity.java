@@ -1,4 +1,4 @@
-package com.prajeshav.springchatbot.domain;
+package com.prajeshav.springchatbot.entities;
 
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -19,7 +19,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @MappedSuperclass
 @EntityListeners(AuditingEntityListener.class)
-public class BaseDomain {
+public class BaseEntity {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)

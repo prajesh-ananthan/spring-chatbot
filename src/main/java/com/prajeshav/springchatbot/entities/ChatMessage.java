@@ -1,4 +1,4 @@
-package com.prajeshav.springchatbot.domain;
+package com.prajeshav.springchatbot.entities;
 
 import jakarta.persistence.Column;
 import jakarta.persistence.Entity;
@@ -17,7 +17,7 @@ import lombok.*;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
-public class ChatMessage extends BaseDomain {
+public class ChatMessage extends BaseEntity {
 
     @Column(nullable = false)
     private String sessionId;
