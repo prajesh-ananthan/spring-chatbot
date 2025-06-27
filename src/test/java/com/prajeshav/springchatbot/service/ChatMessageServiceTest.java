@@ -25,5 +25,6 @@ class ChatMessageServiceTest {
         // Then
         assertNotNull(response);
         assertFalse(response.isEmpty());
+        System.out.println(response);
     }
 }
