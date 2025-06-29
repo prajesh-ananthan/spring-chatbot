@@ -36,4 +36,6 @@ public class Product extends BaseEntity {
 
     @Column(length = 500)
     private String brand;
+
+    private Boolean available;
 }
